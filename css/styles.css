@@ -1,0 +1,42 @@
+/* var section */
+
+:root {
+    --background-blue: #015D9E;
+    --off-white: #E8E8E8;
+}
+
+/* 320px mobile page */
+
+.flex-container {
+    display: flex;
+    gap: 1rem;
+}
+
+body {
+    font-family: "Mallanna", sans-serif;
+    color: var(--off-white);
+}
+
+section {
+    background-color: var(--background-blue);
+    padding: 1.5rem;
+    margin-bottom: 4.5rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Manrope", sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    margin: 24px 0;
+}
